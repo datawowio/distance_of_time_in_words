@@ -56,8 +56,8 @@ module DOTIW
             build_hours
           elsif distance < ONE_WEEK
             build_days
-          elsif distance < FOUR_WEEKS
-            build_weeks
+          # elsif distance < FOUR_WEEKS
+          #   build_weeks
           else # greater than a week
             build_years_months_weeks_days
           end
