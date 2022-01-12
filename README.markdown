@@ -1,3 +1,4 @@
+I FORKED THIS JUST TO ONLY REMOVE WEEKS BECAUSE WHO CARES ABOUT WEEKS ANYWAY
 # dotiw ![Ruby](https://github.com/radar/distance_of_time_in_words/workflows/Ruby/badge.svg)
 
 The `dotiw` library that adds `distance_of_time_in_words` to any Ruby project, or overrides the default implementation in Rails with more accurate output.

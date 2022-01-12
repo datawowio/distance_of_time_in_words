@@ -140,8 +140,8 @@ module DOTIW
 
       output[:years]   = years
       output[:months]  = months
-      output[:weeks]   = weeks
-      output[:days]    = days
+      # output[:weeks]   = weeks
+      output[:days]    = days + weeks * 7
 
       total_days, @distance = distance.abs.divmod(ONE_DAY.to_i)
 
